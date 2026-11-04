@@ -1,26 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Мой первый сайт</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аслан — Резюме</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>Мой первый сайт</h1>
-    <p>Это мой учебный сайт. Я учусь делать страницы на HTML и CSS.</p>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+    <main class="resume">
+        <header class="hero">
+            <div><p class="eyebrow">HELLO, I AM</p><h1>Аслан</h1><p class="role">Вайб-кодер <span>•</span> Создатель digital-проектов</p></div>
+        </header>
+        <section class="stack">
+            <article class="card open">
+                <button class="card-toggle" type="button" aria-expanded="true"><span class="card-number">01</span><span class="card-title">Обо мне</span><span class="card-icon">−</span></button>
+                <div class="card-content"><p>Я вайб-кодер из Шымкента. Мне нравится создавать красивые, удобные и современные сайты. Я быстро учусь, люблю решать задачи и постоянно развиваю навыки.</p><div class="chips"><span>HTML</span><span>CSS</span><span>C#</span><span>UI Design</span></div></div>
+            </article>
+            <article class="card">
+                <button class="card-toggle" type="button" aria-expanded="false"><span class="card-number">02</span><span class="card-title">Навыки</span><span class="card-icon">+</span></button>
+                <div class="card-content"><div class="skill"><span>HTML &amp; CSS</span><b>85%</b><div class="progress"><i style="--level:85%"></i></div></div><div class="skill"><span>JavaScript</span><b>65%</b><div class="progress"><i style="--level:65%"></i></div></div><div class="skill"><span>C#</span><b>70%</b><div class="progress"><i style="--level:70%"></i></div></div></div>
+            </article>
+            <article class="card">
+                <button class="card-toggle" type="button" aria-expanded="false"><span class="card-number">03</span><span class="card-title">Проекты</span><span class="card-icon">+</span></button>
+                <div class="card-content"><div class="project"><strong>Личный сайт</strong><span>Адаптивный одностраничный сайт</span></div><div class="project"><strong>Учебная программа</strong><span>Практика в разработке приложений на C#</span></div><div class="project"><strong>Интерфейс резюме</strong><span>Современный дизайн с анимациями</span></div></div>
+            </article>
+            <article class="card">
+                <button class="card-toggle" type="button" aria-expanded="false"><span class="card-number">04</span><span class="card-title">Контакты</span><span class="card-icon">+</span></button>
+                <div class="card-content"><a href="mailto:hello@example.com"><span>Email</span><b>hello@example.com</b></a><a href="tel:+77000000000"><span>Телефон</span><b>+7 700 000 00 00</b></a><a href="#"><span>Город</span><b>Шымкент, Казахстан</b></a></div>
+            </article>
+            <article class="card">
+                <button class="card-toggle" type="button" aria-expanded="false"><span class="card-number">05</span><span class="card-title">Образование</span><span class="card-icon">+</span></button>
+                <div class="card-content"><div class="project"><strong>Изучаю веб-разработку</strong><span>Практика через реальные проекты</span></div><div class="project"><strong>Самообразование</strong><span>JavaScript, UI/UX, работа с AI-инструментами</span></div></div>
+            </article>
+            <article class="card">
+                <button class="card-toggle" type="button" aria-expanded="false"><span class="card-number">06</span><span class="card-title">Интересы</span><span class="card-icon">+</span></button>
+                <div class="card-content"><div class="chips"><span>AI</span><span>Creative coding</span><span>Web design</span><span>Музыка</span><span>Новые технологии</span></div></div>
+            </article>
+            <article class="card">
+                <button class="card-toggle" type="button" aria-expanded="false"><span class="card-number">07</span><span class="card-title">Цели</span><span class="card-icon">+</span></button>
+                <div class="card-content"><div class="project"><strong>Стать сильным вайб-кодером</strong><span>Создавать полезные продукты быстрее с помощью современных AI-инструментов.</span></div><div class="project"><strong>Создать собственный стартап</strong><span>Развивать идеи от макета до работающего приложения.</span></div></div>
+            </article>
+            <article class="card">
+                <button class="card-toggle" type="button" aria-expanded="false"><span class="card-number">08</span><span class="card-title">Инструменты</span><span class="card-icon">+</span></button>
+                <div class="card-content"><div class="chips"><span>VS Code</span><span>Figma</span><span>GitHub</span><span>ChatGPT</span><span>Canva</span><span>AI Tools</span></div></div>
+            </article>
+            <article class="card">
+                <button class="card-toggle" type="button" aria-expanded="false"><span class="card-number">09</span><span class="card-title">Языки</span><span class="card-icon">+</span></button>
+                <div class="card-content"><div class="skill"><span>Русский</span><b>Свободно</b><div class="progress"><i style="--level:95%"></i></div></div><div class="skill"><span>Казахский</span><b>Свободно</b><div class="progress"><i style="--level:90%"></i></div></div><div class="skill"><span>Английский</span><b>Средний</b><div class="progress"><i style="--level:60%"></i></div></div></div>
+            </article>
+            <article class="card">
+                <button class="card-toggle" type="button" aria-expanded="false"><span class="card-number">10</span><span class="card-title">Социальные сети</span><span class="card-icon">+</span></button>
+                <div class="card-content"><a href="#"><span>GitHub</span><b>@aslan</b></a><a href="#"><span>Telegram</span><b>@aslan</b></a><a href="#"><span>Instagram</span><b>@aslan</b></a></div>
+            </article>
+        </section>
 
-    <h2>Что я изучаю</h2>
-    <ul>
-      <li>HTML</li>
-      <li>Заголовки и абзацы</li>
-      <li>Списки и ссылки</li>
-    </ul>
+        <section class="life-section">
+            <div class="section-heading"><span>МОЯ ЖИЗНЬ</span><h2>Шымкент</h2><p>Нажмите на стопку карточек</p></div>
+            <div class="life-stack" role="button" tabindex="0" aria-expanded="false">
+                <article class="life-card life-card-1"><span class="life-icon">⌂</span><small>ГОРОД</small><strong>Шымкент</strong><p>Живу и создаю проекты в южной столице.</p></article>
+                <article class="life-card life-card-2"><span class="life-icon">☀</span><small>ПОГОДА</small><strong>Солнечно</strong><p>Люблю тёплый климат и яркие дни.</p></article>
+                <article class="life-card life-card-3"><span class="life-icon">◎</span><small>РИТМ</small><strong>Активный</strong><p>Учусь, работаю и постоянно пробую новое.</p></article>
+                <article class="life-card life-card-4"><span class="life-icon">◇</span><small>СЕМЬЯ</small><strong>Близкие</strong><p>Моя главная поддержка и вдохновение.</p></article>
+                <article class="life-card life-card-5"><span class="life-icon">△</span><small>ХОББИ</small><strong>Творчество</strong><p>Веб-дизайн, музыка, технологии и идеи.</p></article>
+                <article class="life-card life-card-6"><span class="life-icon">✦</span><small>МЕЧТА</small><strong>Создавать</strong><p>Полезные digital-продукты для людей.</p></article>
+            </div>
+        </section>
 
-    <h2>О проекте</h2>
-    <p>На странице есть заголовки, текст, список и ссылка на код проекта.</p>
-    <p><a href="https://github.com/ZVERTURETORIG/vibe-html">Мой проект на GitHub</a></p>
-  </main>
+        <footer><strong>Аслан</strong><br>Вайб-кодер • Шымкент<br><br>Готов к новым проектам и интересным идеям <span>✦</span></footer>
+    </main>
+    <script>
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => card.querySelector('.card-toggle').addEventListener('click', () => {
+            cards.forEach(other => { if (other !== card) { other.classList.remove('open'); other.querySelector('.card-toggle').setAttribute('aria-expanded', 'false'); other.querySelector('.card-icon').textContent = '+'; } });
+            card.classList.toggle('open');
+            const isOpen = card.classList.contains('open');
+            card.querySelector('.card-toggle').setAttribute('aria-expanded', isOpen);
+            card.querySelector('.card-icon').textContent = isOpen ? '−' : '+';
+        }));
+        const lifeStack = document.querySelector('.life-stack');
+        const toggleLifeStack = () => {
+            lifeStack.classList.toggle('open');
+            lifeStack.setAttribute('aria-expanded', lifeStack.classList.contains('open'));
+        };
+        lifeStack.addEventListener('click', toggleLifeStack);
+        lifeStack.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                toggleLifeStack();
+            }
+        });
+    </script>
 </body>
 </html>
+
