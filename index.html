@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Небольшой учебный проект по HTML и CSS.">
+    <title>Vibe HTML — мой первый сайт</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#home">vibe<span>html</span></a>
+      <nav aria-label="Основная навигация">
+        <a href="#about">О проекте</a>
+        <a href="#topics">Что изучаю</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <p class="eyebrow">Мой учебный проект</p>
+        <h1>Привет! Это мой первый сайт.</h1>
+        <p class="hero-copy">
+          Здесь я учусь создавать веб-страницы с помощью HTML и CSS,
+          экспериментирую с идеями и постепенно собираю свой проект.
+        </p>
+        <a class="button" href="#topics">Посмотреть, что изучаю</a>
+      </section>
+
+      <section class="section" id="about">
+        <p class="eyebrow">О проекте</p>
+        <h2>Начинаю с простого</h2>
+        <p class="section-copy">
+          Этот сайт — место для практики. Я буду добавлять сюда новые страницы,
+          пробовать разметку и улучшать оформление по мере обучения.
+        </p>
+      </section>
+
+      <section class="section topics" id="topics">
+        <p class="eyebrow">Мой план</p>
+        <h2>Что я изучаю</h2>
+        <div class="card-grid">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>HTML</h3>
+            <p>Создаю структуру страницы и добавляю смысловую разметку.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>CSS</h3>
+            <p>Настраиваю цвета, шрифты, отступы и расположение элементов.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Практика</h3>
+            <p>Проверяю идеи в браузере и постепенно развиваю проект.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Учусь создавать сайты — шаг за шагом.</p>
+    </footer>
+  </body>
+</html>
